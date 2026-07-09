@@ -51,13 +51,7 @@ public class Recursividad {
                     int b=Integer.parseInt(sc.nextLine());
                     System.out.println("MCD = "+maximoComunDivisor(a,b));
                     break;
-                case 7:
-                    System.out.print("Base: ");
-                    long base=Long.parseLong(sc.nextLine());
-                    System.out.print("Exponente: ");
-                    int e=Integer.parseInt(sc.nextLine());
-                    System.out.println("Resultado = "+potenciaRapida(base,e));
-                    break;
+                
                 case 8:
                     llenarAleatorio(arreglo);
                     break;
